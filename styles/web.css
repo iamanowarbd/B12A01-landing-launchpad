@@ -31,6 +31,31 @@ body{
     border: none;
     font-size: 16px;
     cursor: pointer;
+    transition: all 0.4s;
+}
+
+.btn-primary:hover{
+    background-color: #0056b3;
+    transform: scale(1.2);
+}
+
+.btn-second{
+    font-family: "Raleway", sans-serif;
+    background-color: #4E47FF;
+    font-weight: 400;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.btn-second:hover {
+    background-color: #0056b3;
+    transform: scale(1.2);
+    
 }
 
 .title{
@@ -183,7 +208,6 @@ nav{
 
 .review{
     font-family: "Inter", sans-serif;
-    background-color: rgba(255, 255, 255, 0.5);
     padding: 60px 20px;
     text-align: center;
 }
@@ -254,3 +278,45 @@ nav{
   font-size: 13px;
   color: #888;
 }
+
+/* focus */
+
+
+
+.focus {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    font-family: "Raleway", sans-serif;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.focus-title {
+    font-size: 50px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.sub-title {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.image-focus {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 48px;
+    background-repeat: no-repeat;
+    margin: 20px 150px;
+}
+
