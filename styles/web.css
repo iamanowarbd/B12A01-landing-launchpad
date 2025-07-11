@@ -33,16 +33,14 @@ body{
     cursor: pointer;
 }
 
-
-.contact-btn{
+.title{
     font-family: "Raleway", sans-serif;
-    background-color: rgba(78, 71, 255, 0.1);
-    font-weight: bold;
-    border-radius: 10px;
-    border: none;
-    font-size: 16px;
-    cursor: pointer;
+    font-size: 42px;
+    font-weight: 700;
+    text-align: center;
 }
+
+
 /* header */
 header{
     background-image: url('../Assets/Hero-bg.png'); 
@@ -91,9 +89,10 @@ nav{
 
 }
 
+/* action section */
+
 .action{
     display: flex;
-
     color: rgba(37, 36, 50, 1);
     padding: 80px 150px;
     align-items: center;
@@ -178,4 +177,80 @@ nav{
     font-size: 16px;
     color: rgba(0, 0, 0, 0.5);
     margin: 0px;
+}
+
+/* review */
+
+.review{
+    font-family: "Inter", sans-serif;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.review .title{
+    color: rgba(30, 30, 30, 1);
+    font: 32px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.review-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.review-card{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    padding: 24px;
+    width: 300px;
+    text-align: left;
+}
+
+.rating img{
+    width: 20px;
+    height: 20px;
+    margin-right: 4px;
+}
+.review-heading {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 16px 0 8px;
+  color: #1f1f1f;
+}
+
+.review-text {
+  font-size: 15px;
+  color: #4a4a4a;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+  margin-top: auto;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 12px;
+}
+
+.reviewer-name {
+  font-weight: 600;
+  font-size: 14px;
+  color: #333;
+}
+
+.review-date {
+  font-size: 13px;
+  color: #888;
 }
